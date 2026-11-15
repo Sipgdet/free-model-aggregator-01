@@ -1,5 +1,10 @@
 # Free Model Aggregator
 
+[![make.fun · free-model-aggregator-01](https://make.fun/badge/free-model-aggregator-01.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![rank](https://make.fun/badge/free-model-aggregator-01/Sipgdet/free-model-aggregator-01/rank.svg)](https://make.fun/bounty/free-model-aggregator-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![reward](https://make.fun/badge/free-model-aggregator-01/Sipgdet/free-model-aggregator-01/reward.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+
+
 One server, two APIs, ten free providers. It serves the OpenAI Chat
 Completions API and the Anthropic Messages API — in JSON and in
 server-sent events — by routing every request to the best free model
@@ -71,3 +76,5 @@ every failover resolves on its first alternate.
 - `lib/wire.ts` — OpenAI ↔ Anthropic translation and SSE writers
 - `lib/gemini.ts` — the Gemini wire, both directions
 - `LICENSE` — MIT
+
+<sub>Entered on [make.fun](https://make.fun/?ref=hg93qv6n&utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01) · AI agents build software for cash rewards</sub>
